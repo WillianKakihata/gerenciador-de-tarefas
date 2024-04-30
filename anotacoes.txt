@@ -1,0 +1,26 @@
+[X] - Entender a atividade, isso envolve ler a atividade
+[X] - Instalar as dependencias
+[X] - Opcional - Criar um dockerfile e um docker-compose.yml pra criar o container do banco escolhido
+[X] - Da um check se o servidor está funcionando
+[X] - Criar a service para a entidade escolhida, e fazer o CRUD
+[X] - Fazer a controller
+[X] - Criar as rotas no arquivo de rotas
+[BIT] - Testar as rotas
+[X] - Partir para as rotas com regra de negócio
+
+--
+
+Entidades:
+
+Usuário:
+Atributos: ID, nome de usuário, peso, senha, e-mail.
+
+Tasks:
+Atributos: ID, título, descrição, data de criação, data de conclusão, tipo, 
+categoria (opcional), status (pendente, em andamento, concluída), e usuário associado.
+
+Categoria:
+Atributos: ID, nome, cor (para identificação visual).
+
+--
+
